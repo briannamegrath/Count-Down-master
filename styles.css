@@ -1,0 +1,81 @@
+html{
+  font-family: 'Varela Round', sans-serif;
+  box-sizing: content-box;
+  background-color: rgb(225, 182, 182);
+}
+
+form{
+  margin: 0, auto
+}
+
+holiday-img{
+  height: 5rem;
+  width: 1rem;
+}
+
+img{
+  margin-top: rem;
+  margin-left: 45rem;
+  margin-bottom: 0px;
+  position: center;
+}
+
+h2{
+  color: aliceblue;
+  font-size: 2rem;
+  margin-top: 15rem;
+  margin-left: 30rem;
+  margin-bottom: 0px;
+}
+
+timer{
+  size: 0rem;
+  margin-bottom: 0rem;
+}
+
+
+button{
+  display: inline;
+  border-width: thin;
+  border-radius: 3px;
+  border-color:rgb(237, 237, 237);
+  color: rgb(33, 33, 33);
+  width: 10rem;
+}
+
+@media only screen and (max-width: 1366px){
+
+  h2{
+    color: aliceblue;
+    font-size: 2rem;
+    margin-top: 15rem;
+    margin-left: 20rem;
+    margin-bottom: 0px;
+  }
+
+img{
+
+  margin-left: 20rem;
+}
+
+}
+
+@media only screen and (max-width: 1025px){
+  h2{
+    color: aliceblue;
+    font-size: 2rem;
+    margin-top: 10rem;
+    margin-left: 10rem;
+    margin-bottom: 0px;
+  }
+  img{
+
+    margin-left: 10rem;
+  }
+}
+
+@media only screen and (max-width: 559){
+  img{
+
+  }
+}
